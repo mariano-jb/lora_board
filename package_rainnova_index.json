@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "RA_Innova",
+      "maintainer": "Mariano Jimenez-Brenes",
+      "websiteURL": "https://rai.cr/",
+      "email" : "jimenez.brenes.mariano@gmail.com",
+      "platforms":
+      [
+        {
+          "name": "RAI LORA Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/mariano-jb/lora_board/master/LoraBoard-0.0.1.zip",
+          "archiveFileName": "LoraBoard-0.0.1.zip",
+          "checksum": "SHA-256:3004ed7774f31022141572b75ce410b7afa7c6d18e8b4342f278c339eb3a8157",
+          "size": "2914924",
+          "boards": [
+            {
+              "name": "Lora Communication Board"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
